@@ -1,5 +1,9 @@
-const { testCreateFiles } = require("./base/FileManager.js");
-const { main } = require("./base/sum.js");
+// const { testCreateFiles } = require("./base/FileManager.js");
+// const { main } = require("./base/sum.js");
+const { logMessage } = require("./assignment/logMessage.js");
 
 // main();
-testCreateFiles();
+// testCreateFiles();
+
+// assignment
+logMessage("Hello, World!!!\n");
